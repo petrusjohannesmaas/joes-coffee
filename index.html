@@ -1,14 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee shop</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="layout.css">
 </head>
+
 <body>
-    <h1>Coffee shop</h1>
-    <button class="button" onclick="logger()">Click me</button>
-<script src="script.js"></script>
+    <header>
+        <div class="alert-bar is-extra-small">
+            <p id="alert-message"><!-- This is filled with JS --></p>
+        </div>
+        <div class="jumbo-nav is-medium">
+            <div>
+                <p style="color: aliceblue;">Logo</p>
+                <a href="">Link 1</a>
+                <a href="">Link 2</a>
+            </div>
+            <!-- Only visible on large screens -->
+        </div>
+        <nav>
+            <!-- Hamburger is only visible on medium screens and below -->
+        </nav>
+    </header>
+
+    <main>
+        <div class="row is-large">
+            <div class="col col-sm-12 col-md-6 col-lg-3">Box 1</div>
+            <div class="col col-sm-12 col-md-6 col-lg-3">Box 2</div>
+            <div class="col col-sm-12 col-md-6 col-lg-3">Box 3</div>
+            <div class="col col-sm-12 col-md-6 col-lg-3">Box 4</div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Petrus Maas</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
+
 </html>

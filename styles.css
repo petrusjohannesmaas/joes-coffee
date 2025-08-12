@@ -1,3 +1,11 @@
-h1 {
-    color: blue;
-};
+.alert-bar {
+    background-color: aqua;
+}
+
+.jumbo-nav {
+    background-color: black;
+}
+
+.jumbo-nav > div {
+    display: inline-flex;
+}

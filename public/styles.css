@@ -1,10 +1,18 @@
-.alert-bar {
-  background-color: aqua;
-  padding: 24px 0;
+.navbar-alert {
+  padding: 0.5rem 1rem;
+  background-color: #ffcc00;
+  color: #333;
+  font-weight: bold;
 }
 
+#alert-text {
+  transition: opacity 0.5s ease;
+  display: inline-block;
+}
+
+
 .navbar {
-  background-image: url("/coffee-shop/images/header.jpg");
+  background-image: url("/images/header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;

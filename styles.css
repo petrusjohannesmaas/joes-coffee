@@ -1,41 +1,42 @@
 .alert-bar {
-    background-color: aqua;
+  background-color: aqua;
+  padding: 24px 0;
 }
 
 .navbar {
-    background-image: url("/coffee-shop/images/header.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    padding-bottom: 300px ;
+  background-image: url("/coffee-shop/images/header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-bottom: 300px;
 }
 
 .navbar h1 {
-  font-size: 50px ;
+  font-size: 50px;
 }
 
 .navbar-logo img {
-    max-height: 200px;
+  max-height: 200px;
 }
 
 .navbar-links {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
 }
 
 .navbar-links a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 500;
-    font-size: 25px;
-    transition: color 0.3s ease;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 25px;
+  transition: color 0.3s ease;
 }
 
 .navbar-links a:hover {
-    color: #007BFF;
-    border-bottom: 1px solid #007BFF;
+  color: #007BFF;
+  border-bottom: 1px solid #007BFF;
 }
 
 /* Buttons */
@@ -69,4 +70,17 @@
 .button:focus {
   outline: none;
   box-shadow: 0 0 0 3px rgb(0, 0, 0);
+}
+
+.about-hero {
+  background-image: url("/coffee-shop/images/header.jpg");
+  background-size: cover;
+  /* margin: auto; */
+  color: #fff;
+  padding: 100px 0;
+  margin: 0 100px;
+}
+
+.product-section {
+  background-color: #007BFF;
 }

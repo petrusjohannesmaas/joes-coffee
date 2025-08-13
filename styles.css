@@ -3,8 +3,11 @@
 }
 
 .navbar {
-    background-color: #fff;
-    padding: 50px 0;
+    background-image: url("/coffee-shop/images/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 500px ;
 }
 
 .navbar-logo img {
@@ -20,7 +23,7 @@
 
 .navbar-links a {
     text-decoration: none;
-    color: #333;
+    color: #fff;
     font-weight: 500;
     transition: color 0.3s ease;
 }
@@ -30,13 +33,35 @@
     border-bottom: 1px solid #007BFF;
 }
 
-/* Large screen layout only */
-@media (min-width: 1025px) {
-    .navbar {
-        display: block;
-    }
+/* Buttons */
+.button {
+  display: inline-block;
+  padding: 0.75em 1.5em;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  /* background-color: #6b4f3b; */
+  border: 2px solid #fff;
+  border-radius: 0.375em;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
 
-    .navbar-links {
-        display: flex;
-    }
+.button:hover,
+.button:focus {
+  background-color: #007BFF;
+  /* transform: translateY(-2px); */
+  border: 2px solid #007BFF;
+}
+
+.button:active {
+  background-color: #4a3322;
+  transform: translateY(0);
+}
+
+.button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgb(0, 0, 0);
 }

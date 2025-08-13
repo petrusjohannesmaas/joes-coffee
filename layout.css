@@ -20,22 +20,6 @@
   padding: 0 20px;
 }
 
-.is-large {
-  padding: 540px 0px 540px 0;
-}
-
-.is-medium {
-  padding: 270px 0 270px 0;
-}
-
-.is-small {
-  padding: 135px 0 135px 0;
-}
-
-.is-extra-small {
-  padding: 67.5px 0 67.5px 0;
-}
-
 .is-micro {
   padding: 33.75px 0 33.75px 0;
 }

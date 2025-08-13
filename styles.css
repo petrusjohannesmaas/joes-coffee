@@ -2,10 +2,41 @@
     background-color: aqua;
 }
 
-.jumbo-nav {
-    background-color: black;
+.navbar {
+    background-color: #fff;
+    padding: 50px 0;
 }
 
-.jumbo-nav > div {
-    display: inline-flex;
+.navbar-logo img {
+    max-height: 50px;
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+    color: #007BFF;
+    border-bottom: 1px solid #007BFF;
+}
+
+/* Large screen layout only */
+@media (min-width: 1025px) {
+    .navbar {
+        display: block;
+    }
+
+    .navbar-links {
+        display: flex;
+    }
 }

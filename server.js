@@ -22,7 +22,7 @@ app.get('/about', (req, res) => {
 app.get('/shop', (req, res) => {
   res.render('shop', {
     pageTitle: 'Shop',
-    pageHeading: 'Shop'
+    pageHeading: 'Shop our fresh roasted coffees.'
   });
 });
 

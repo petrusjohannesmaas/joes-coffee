@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+.centered {
+  text-align: center; 
+  margin: auto;
+}
+
 form {
   display: flex;
   flex-direction: column;

@@ -1,6 +1,44 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: lighter;
+}
+
+
+.card {
+  /* max-width: fit-content; */
+  /* margin: 45px; */
+  border: 1px solid #4a3322;
+  border-radius: 0.375em;
+  color: #fff;
+}
+
+.card-footer {
+  padding: 25px 0;
+  font-size: larger;
+}
+
+.card-body img {
+  display: block;      /* Removes inline extra space */
+  width: 100%;         /* Fill container horizontally */
+  height: auto;        /* Keep aspect ratio */
+  border-top-left-radius: 0.375em; /* Match card corners */
+  border-top-right-radius: 0.375em;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.product img {
+  display: block;      /* Removes inline extra space */
+  width: 100%;         /* Fill container horizontally */
+  height: auto;        /* Keep aspect ratio */
+}
+
+.product {
+  text-align: center;
 }
 
 .centered {
@@ -37,7 +75,7 @@ section {
 .container {
   max-width: 1200px;
   margin: auto;
-  padding: 0 20px;
+  /* padding: 0 20px; */
 }
 
 .col-1 {

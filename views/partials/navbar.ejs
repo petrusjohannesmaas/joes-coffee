@@ -1,29 +1,30 @@
-<header class="navbar">
-    <div id="alert-message" class="navbar-alert">
+<header class="navbar" style="background-image: url('<%= bgImage %>');">
+    <div id="alert-message" class="navbar-alert centered">
         <span id="alert-text">Loading alert...</span>
     </div>
-
-    <div class="row">
-        <div class="col col-4 navbar-logo">
-            <a href="/">
-                <img src="/images/logo.png" alt="Logo" />
-            </a>
+    <section class="is-pinned">
+        <div class="row">
+            <div class="col col-4 navbar-logo">
+                <a href="/">
+                    <img src="/images/logo.png" alt="Logo" />
+                </a>
+            </div>
+            <div class="col col-4"></div>
+            <nav class="col col-4 navbar-links">
+                <a href="/about">About</a>
+                <a href="/shop">Shop</a>
+                <a href="/locations">Locations</a>
+                <a href="/wholesale">Wholesale</a>
+            </nav>
         </div>
-        <div class="col col-4"></div>
-        <nav class="col col-4 navbar-links">
-            <a href="/about">About</a>
-            <a href="/shop">Shop</a>
-            <a href="/locations">Locations</a>
-            <a href="/wholesale">Wholesale</a>
-        </nav>
-    </div>
-    <div>
-        <h1>
-            <%= pageHeading %>
-        </h1>
-    </div>
-    <div class="nav-buttons">
-        <a href="/shop" class="button">Shop coffee</a>
-        <a href="/locations" class="button">Visit us</a>
-    </div>
+        <div>
+            <h1>
+                <%= pageHeading %>
+            </h1>
+        </div>
+        <div class="nav-buttons">
+            <a href="/shop" class="button">Shop coffee</a>
+            <a href="/locations" class="button">Visit us</a>
+        </div>
+    </section>
 </header>

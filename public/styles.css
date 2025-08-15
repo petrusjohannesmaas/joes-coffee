@@ -1,7 +1,16 @@
+h1 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-weight: 400;
+}
+
 .navbar-alert {
   padding: 0.5rem 1rem;
-  background-color: #ffcc00;
-  color: #333;
+  background-color: #007BFF;
+  color: #fff;
   font-weight: bold;
 }
 
@@ -12,11 +21,14 @@
 
 
 .navbar {
-  background-image: url("/images/header.jpg");
+  /* background-image: url("/images/home-banner.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
-  padding-bottom: 300px;
+  background-position: center;
+}
+
+.is-pinned {
+  padding:  67.5px 30px;
 }
 
 .navbar h1 {
@@ -82,9 +94,13 @@
 }
 
 .about-hero {
-  background-image: url("/images/header.jpg");
+  padding: 150px 0px;
+  background-image: url("/images/scooter.png");
   background-size: cover;
   /* margin: auto; */
   color: #fff;
-  margin: 0 200px;
+}
+
+footer {
+  padding: 50px;
 }

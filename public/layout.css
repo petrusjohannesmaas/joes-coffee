@@ -5,6 +5,9 @@
   font-weight: lighter;
 }
 
+.is-pinned {
+  padding:  67.5px 30px;
+}
 
 .card {
   /* max-width: fit-content; */

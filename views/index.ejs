@@ -14,27 +14,27 @@
 <body>
     <%- include('partials/navbar', { pageHeading }) %>
         <main>
-            <section class="product-hero is-pinned">
+            <section id="product-hero">
                 <!-- First row -->
                 <div class="row">
                     <div class="col col-sm-12 col-md-4 col-4">
                         <div class="container product">
-                            <img src="/images/bag.png" alt="Coffee bag">
-                            <h4>Blend 1</h4>
+                            <img src="/images/forge-blend.png" alt="Coffee bag">
+                            <h4>Forge Espresso</h4>
                             <h5>$123.00</h5>
                         </div>
                     </div>
                     <div class="col col-sm-12 col-md-4 col-4">
                         <div class="container product">
-                            <img src="/images/bag.png" alt="Coffee bag">
-                            <h4>Blend 2</h4>
+                            <img src="/images/sundial-blend.png" alt="Coffee bag">
+                            <h4>Sundial House Blend</h4>
                             <h5>$123.00</h5>
                         </div>
                     </div>
                     <div class="col col-sm-12 col-md-4 col-4">
                         <div class="container product">
-                            <img src="/images/bag.png" alt="Coffee bag">
-                            <h4>Blend 3</h4>
+                            <img src="/images/midnight-blend.png" alt="Coffee bag">
+                            <h4>Midnight Dark Roast</h4>
                             <h5>$123.00</h5>
                         </div>
                     </div>
@@ -43,15 +43,22 @@
                 <div class="row">
                     <div class="col col-sm-12 col-md-4 col-4">
                         <div class="container product">
-                            <img src="/images/bag.png" alt="Coffee bag">
-                            <h4>Blend 4</h4>
+                            <img src="/images/ember-blend.png" alt="Coffee bag">
+                            <h4>Ember Medium Roast</h4>
                             <h5>$123.00</h5>
                         </div>
                     </div>
                     <div class="col col-sm-12 col-md-4 col-4">
                         <div class="container product">
                             <img src="/images/special-blend.png" alt="Coffee bag">
-                            <h4>Special Blend</h4>
+                            <h4>Pony Boy Special</h4>
+                            <h5>$123.00</h5>
+                        </div>
+                    </div>
+                    <div class="col col-sm-12 col-md-4 col-4">
+                        <div class="container product">
+                            <img src="/images/gift-card.png" alt="Coffee bag">
+                            <h4>Gift card</h4>
                             <h5>$123.00</h5>
                         </div>
                     </div>
@@ -63,37 +70,69 @@
                 </div>
                 </div>
             </section>
-            <section class="is-pinned about-hero">
-                <h1>About us</h1>
+            <section id="about-hero">
                 <div class="row">
-                    <div class="col col-6">
-                        <h3>Heading</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis qui natus temporibus
-                            reiciendis, ut, similique necessitatibus odit aperiam accusamus ex quae asperiores
-                            consequuntur eligendi deserunt!</p>
-                        <br>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias vitae, tenetur
-                            necessitatibus optio ad obcaecati reiciendis doloremque dolore quibusdam eaque fugit enim,
-                            et ex culpa mollitia suscipit reprehenderit, repellat autem consequatur ullam atque tempora
-                            accusamus? Facilis obcaecati laudantium aperiam aliquam, quaerat ab vitae deleniti debitis
-                            quam blanditiis sint labore esse!</p>
-                        <h5>Person's name</h5>
-                        <h5>Signature</h5>
+                    <div class="col col-sm-12 col-6">
+                        <div class="container">
+                            <div class="left">
+                                <h2>About us</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis qui natus
+                                    temporibus
+                                    reiciendis, ut, similique necessitatibus odit aperiam accusamus ex quae asperiores
+                                    consequuntur eligendi deserunt!</p>
+                                <br>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias vitae, tenetur
+                                    necessitatibus optio ad obcaecati reiciendis doloremque dolore quibusdam eaque fugit
+                                    enim,
+                                    et ex culpa mollitia suscipit reprehenderit, repellat autem consequatur ullam atque
+                                    tempora
+                                    accusamus? Facilis obcaecati laudantium aperiam aliquam, quaerat ab vitae deleniti
+                                    debitis
+                                    quam blanditiis sint labore esse!</p>
+                                <br>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, modi voluptates quidem
+                                    perferendis accusamus aliquid sequi alias eos fuga vero odit quia quo, quas odio
+                                    possimus molestiae corrupti ex officia. Sed accusantium ea porro nobis.</p>
+
+                                <br>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi explicabo numquam
+                                    beatae
+                                    odit quia. Necessitatibus hic aut qui itaque quasi culpa, assumenda voluptates eius
+                                    facilis?</p>
+                                <br>
+                                <h5>Person's name</h5>
+                                <h5>Signature</h5>
+                            </div>
+
+                        </div>
                     </div>
-                    <div class="col col-6">
-                        <div class="container centered">
+                    <div class="col col-sm-12 col-6">
+                        <div class="container right">
                             <img src="/images/donations.png" alt="">
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="is-pinned subscribe-hero">
-                <div class="centered">
-                    <h2>Get Cafe coffee, on your doorstep, at your leisure.</h2>
-                    <a class="button">LEARN MORE</a>
+            <section id="loyalty-hero">
+                <div class="container center">
+                    <div class="line" style="display: inline-flex; align-items: center; margin-right: 25px;">
+                        <img src="/images/light-logo.png" alt="" style="max-width: 50%;">
+                        <h1>Loyalty Program</h1>
+                    </div>
+                    <h2 style="color: antiquewhite;">Get Joe's coffee, scan QR, get rewarded.</h2>
+                    <form action="/submit" method="POST">
+                        <input type="text" id="first_name" name="first_name" placeholder="FIRST NAME">
+                        <input type="text" id="last_name" name="last_name" placeholder="LAST NAME">
+                        <input type="email" id="email" name="email" placeholder="EMAIL">
+
+                        <a id="openModalBtn" class="button" type="submit">GET QR CODE</a>
+                    </form>
+                    <div class="center" style="margin: 35px 0px;">
+                        <a href="" style="color: antiquewhite;">⩼ What is this?</a>
+                    </div>
                 </div>
             </section>
-            <section class="is-pinned">
+            <section class="is-pinned" id="locations-hero">
                 <div class="centered">
 
                     <h2>Come visit us</h2>
@@ -154,13 +193,21 @@
                     </div>
                 </div>
             </section>
-            <section>
+            <!-- Modal Container -->
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn">&times;</span>
+                    <h2>Modal Title</h2>
+                    <p>This is a simple modal window.</p>
+                </div>
+            </div>
+            </section>
+            <section id="footer-hero">
                 <div class="row" style="padding: 100px 0;">
                     <div class="container">
-                        <h2>📹 @cafecoffee</h2>
+                        <h2>📹 @joescoffee</h2>
                     </div>
                 </div>
-            </section>
         </main>
         <%- include('partials/footer') %>
             <script src="script.js"></script>

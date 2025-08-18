@@ -1,23 +1,36 @@
 <header class="navbar" style="background-image: url('<%= bgImage %>');">
-    <div id="alert-message" class="navbar-alert centered">
-        <span id="alert-text">Loading alert...</span>
+    <div class="announcement-container">
+        <div class="row">
+            <div class="col col-4"></div>
+            <div class="col col-4 center">
+                <p id="alert-text">Loading alert...</p>
+            </div>
+            <div class="col col-4 right">
+                <button>
+                    <p id="pause">⏸️</p>
+                    <p id="play" style="display: none;">▶️</p>
+                </button>
+            </div>
+        </div>
+
+        <p></p>
     </div>
     <section class="nav-level">
         <div class="row">
             <div class="col col-6">
-                <a href="/"><img src="/images/white-logo.png" alt="" width="250px"></a>
+                <a href="/"><img src="/images/light-logo.png" alt="" width="250px"></a>
             </div>
             <div class="col col-6 nav-links" style="text-align: right;">
                 <p class="contact-details">
-                    <span>🁪: M-F 9AM-5PM ET</span>
-                    <span>✆: 718-782-0332</span>
+                    <span>🁪: M-F 9AM-5PM SAT</span>
+                    <span>✆: 012-753-0441</span>
                 </p>
                 <br>
                 <p>
-                    <a href="#link-hero">SHOP</a>
-                    <a href="#link-hero">ABOUT</a>
-                    <a href="#link-hero">LOCATIONS</a>
-                    <a href="#link-hero">CONTACT</a>
+                    <a href="#product-hero">SHOP</a>
+                    <a href="#about-hero">ABOUT</a>
+                    <a href="#locations-hero">LOCATIONS</a>
+                    <a href="#footer-hero">CONTACT</a>
                 </p>
             </div>
         </div>
@@ -26,9 +39,9 @@
                 <%= pageHeading %>
             </h1>
             <h1>Community driven. Always fresh.</h1>
-            <div style="margin: 10px 0;">
-                <a href="" class="button">WHOLESALE</a>
-                <a href="" class="button">VISIT US</a>
+            <div style="margin: 25px 0;">
+                <a href="#loyalty-hero" class="button">LOYALTY PROGRAM</a>
+                <a href="#locations-hero" class="button">VISIT US</a>
             </div>
         </div>
 

@@ -1,0 +1,13 @@
+✅ Set up EJS partials, public, views, and Express routes
+✅ Find a reference site, color pallet and placeholder images
+✅ Wireframe and routing, scroll navigation
+✅ Finish Loyalty program page + form skeleton
+4. Typography, colors and spacing
+5. Set the images and icons
+7. Animations
+8. Mobile responsivity
+9. Special Javascript
+10. Finishing touches
+10. Add all the descriptive / aria text
+11. Set up pipeline
+12. Add to domains

@@ -1,5 +1,10 @@
+// Announcement bar
 document.addEventListener("DOMContentLoaded", () => {
-  const alertMessages = ["Alert message 1", "Alert message 2"];
+  const alertMessages = [
+    "Scan your loyalty QR in store, to get 5% off your orders.", 
+    "Free shipping on all Z.A. orders of R1000 or more"
+  ];
+  
   const alertText = document.getElementById("alert-text");
 
   if (!alertText) return;
@@ -15,4 +20,27 @@ document.addEventListener("DOMContentLoaded", () => {
       alertText.style.opacity = 1;
     }, 500); // match transition duration
   }, 5000);
+});
+
+// Modal
+// Get elements
+const modal = document.getElementById("myModal");
+const openBtn = document.getElementById("openModalBtn");
+const closeBtn = document.querySelector(".close-btn");
+
+// Open modal
+openBtn.addEventListener("click", () => {
+  modal.style.display = "block";
+});
+
+// Close modal when clicking the close button
+closeBtn.addEventListener("click", () => {
+  modal.style.display = "none";
+});
+
+// Optional: Close modal when clicking outside the modal content
+window.addEventListener("click", (event) => {
+  if (event.target === modal) {
+    modal.style.display = "none";
+  }
 });

@@ -127,8 +127,36 @@ h2 {
   /* margin: 25px 150px */
 }
 
-#loyalty-hero .container {
-  max-width: 500px;
+.qr-section {
+  background: rgba(0,0,0,0.5);
+  padding: 2rem;
+  margin-top: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+  max-width: 720px;
+  color: #fff;
+}
+
+.qr-section form input {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  width: 80%;
+  font-size: 1rem;
+}
+
+.qr-section button {
+  /* padding: 0.5rem 0.5rem; */
+  /* font-size: 1rem; */
+  cursor: pointer;
+  /* max-width: 80%; */
+}
+
+.qr-output img {
+  margin-top: 1rem;
+  width: 200px;
+  height: 200px;
 }
 
 #locations-hero {

@@ -44,3 +44,11 @@ window.addEventListener("click", (event) => {
     modal.style.display = "none";
   }
 });
+
+// Generating QR
+document.addEventListener('DOMContentLoaded', () => {
+  const form = document.querySelector('.qr-section form');
+  form.addEventListener('submit', () => {
+    console.log('Generating QR...');
+  });
+});

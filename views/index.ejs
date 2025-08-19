@@ -114,22 +114,21 @@
                 </div>
             </section>
             <section id="loyalty-hero">
-                <div class="container center">
-                    <div class="line" style="display: inline-flex; align-items: center; margin-right: 25px;">
-                        <img src="/images/light-logo.png" alt="" style="max-width: 50%;">
-                        <h1>Loyalty Program</h1>
-                    </div>
-                    <h2 style="color: antiquewhite;">Get Joe's coffee, scan QR, get rewarded.</h2>
-                    <form action="/submit" method="POST">
-                        <input type="text" id="first_name" name="first_name" placeholder="FIRST NAME">
-                        <input type="text" id="last_name" name="last_name" placeholder="LAST NAME">
-                        <input type="email" id="email" name="email" placeholder="EMAIL">
-
-                        <a id="openModalBtn" class="button" type="submit">GET QR CODE</a>
+                <div class="qr-section centered">
+                    <h2>Get Your Coffee QR Code</h2>
+                    <form action="/generate" method="POST">
+                        <input type="text" name="firstName" placeholder="First Name" required>
+                        <input type="text" name="lastName" placeholder="Last Name" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <button type="submit">Generate QR Code</button>
                     </form>
-                    <div class="center" style="margin: 35px 0px;">
-                        <a href="" style="color: antiquewhite;">⩼ What is this?</a>
-                    </div>
+
+                    <% if (qrCode) { %>
+                        <div class="qr-output">
+                            <h3>Your QR Code:</h3>
+                            <img src="<%= qrCode %>" alt="QR Code">
+                        </div>
+                        <% } %>
                 </div>
             </section>
             <section class="is-pinned" id="locations-hero">

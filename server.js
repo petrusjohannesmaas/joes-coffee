@@ -23,7 +23,7 @@ app.post('/generate', async (req, res) => {
 
   try {
     const qrCode = await QRCode.toDataURL(data);
-    res.render('index', { ...baseData, qrCode });
+    res.render('qr', { qrCode });
   } catch (err) {
     console.error(err);
     res.render('error');

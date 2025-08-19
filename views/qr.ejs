@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>QR Code</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/layout.css">
+</head>
+
+<body>
+  <main>
+    <section>
+      <div class="container center" style="background-color: black;">
+        <h1>Congrats!</h1>
+        <img src="<%= qrCode %>" alt="Generated QR Code">
+        <a href="/#loyalty-hero" class="button">GO BACK</a>
+      </div>
+    </section>
+  </main>
+
+  <%- include('partials/footer') %>
+</body>
+
+</html>

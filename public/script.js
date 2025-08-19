@@ -1,10 +1,10 @@
 // Announcement bar
 document.addEventListener("DOMContentLoaded", () => {
   const alertMessages = [
-    "Scan your loyalty QR in store, to get 5% off your orders.", 
+    "Scan your loyalty QR in store, to get 5% off your orders.",
     "Free shipping on all Z.A. orders of R1000 or more"
   ];
-  
+
   const alertText = document.getElementById("alert-text");
 
   if (!alertText) return;
